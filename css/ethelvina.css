@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'matilda_regular';
+    src: url('../fonts/matilda-webfont.woff2') format('woff2'),
+         url('../fonts/matilda-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?m6w1b9');
+  src:  url('../fonts/icomoon.eot?m6w1b9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?m6w1b9') format('truetype'),
+    url('../fonts/icomoon.woff?m6w1b9') format('woff'),
+    url('../fonts/icomoon.svg?m6w1b9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	font-family: 'matilda_regular';
+	color: #585858
+}
+
+/*------INICIO HEADER-----*/
+.cabezal{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+header{
+	background-color: pink;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.logo img{
+	width: 15%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 6px solid violet;
+	border-radius: 10px;
+	transition-property: transform;
+	transition-duration: 2s;
+	transition-timing-function: ease-in-out;
+}
+.logo:hover img{
+	transform: rotate(180deg);
+}
+
+nav{
+	background-color: violet;
+	
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 20%;
+}
+
+nav ul li a{
+	color: #585858;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.2em 0.4em;
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+nav ul li a.activo{
+	background-color: #ff33f9;
+}
+/*------FIN HEADER-----*/
+
+/*------INICIO FOOTER-----*/
+footer{
+	background: pink;
+	height: 150px;
+}
+.sociales{
+	color: #585858;
+	float: right;
+	font-size: 14pt;
+	padding-top: 1em;	
+}
+
+.icon-mail:before,
+.icon-facebook2:before,
+.icon-instagram:before,
+.icon-youtube2:before{
+	font-family: 'icomoon';
+  	speak: none;
+  	font-style: normal;
+  	font-weight: normal;
+  	font-variant: normal;
+  	text-transform: none;
+  	color: #ff33f9;
+  	line-height: 1;
+}
+
+.sociales a{
+	color: pink;
+	padding: 0em 0.8em 0 0;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.sociales p{
+	margin: 0.2em 0 0.2em 0;
+	font-size: 1.1em;
+}
+
+.face{
+	padding right: 0.5em;
+	
+}
+.inst{
+	padding right: 0.5em;
+	
+}
+.mail{
+	padding right: 0.5em;
+	
+}
+.you{
+	padding right: 0.5em;
+	
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+/*------FIN FOOTER-----*/
+
+
+/*---------INICIO HOME----------*/
+
+.contenido{
+	width: 85%;
+	margin: 0 5em;
+	
+}
+.presentacion{
+	padding-top: 2em;
+}
+.presentacion h1{
+	margin-top: 1em;
+	text-align: center;
+}
+
+
+.presentacion{
+	height: 425px;
+	margin: 0 4em 0 2em;
+	border-radius: 0.8em;
+
+}
+.presentacion img{
+	float: left;
+	margin: 2em;
+	border-radius: 50%;
+	border: 1px solid purple;
+
+}
+.quehacemos{
+	margin: 0 4em 0 4em;
+	border-radius: 0.8em;
+	margin-top: 2em;
+	padding: 2em 0;
+}
+.quehacemos h1{
+	text-align: center;
+
+}
+.quehacemos a{
+	font-family: serif; 
+	font-style:italic;
+	font-size: 16pt;
+	background-color: #ff33f9;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	color: pink;
+	text-align: center;
+	width: auto;
+	text-decoration: none;
+}
+.quehacemos p{
+	text-align: justify;
+}
+.quehacemos, .rusas,
+.sou, .tipi{
+	padding-top: 2em;
+	text-align: center;
+}
+.quehacemos .rusas img{
+	float: right;
+	margin: 0.7em;
+	border-radius: 2em;
+	border: 1px solid purple;
+}
+.quehacemos .rusas{
+	height: 320px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.quehacemos .sou{
+	margin-top: 2em;
+	height: 320px;
+}
+.quehacemmos .sou h2{
+	padding-top: 4em;
+}
+.quehacemos .sou img{
+	float: left;
+	margin: 0.7em;
+	border-radius: 2em;
+	border: 1px solid purple;
+}
+.quehacemos .tipi{
+	height: 320px;
+	margin-top: 1em;
+}
+.quehacemos .tipi img{
+	float: right;
+	border: 1px solid purple;
+	margin: 0.7em;
+	border-radius: 2em;
+}
+
+/*---------FIN HOME----------*/
+
+
+/*---------INICIO MUÑECOS----------*/
+.muñecos{
+	width: 85%;
+	height: 1100px;
+	margin-left: 5em;
+}
+.muñecos h1{
+	text-align: center;
+}
+.galeria {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2em;
+  float: left;
+  width: 200px;
+}
+
+.galeria:hover {
+  border: 1px solid #777;
+}
+
+.galeria img {
+  width: 100%;
+  height: 200px;
+  border-radius: 2em;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+/*---------FIN MUÑECOS----------*/
+
+
+
+/*---------INICIO SOUVENIRS----------*/
+.souvenir{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	width: 90%;
+	margin-left: 4em;
+}
+.souvenir .titulo h1{
+	text-align: center;
+}
+.cajas{
+	width: 30%;
+	height: 550px;
+	margin-left: 2em;
+	border-radius: 5%;
+	margin-top: 1em;
+
+}
+.cajas img{
+	border-radius: 50%;
+	margin: 1em 1em 0 1em;
+	border: 2px solid purple;
+
+}
+.cajas h6{
+	margin: 0;
+	text-align: center;
+	font-size: 14pt;
+}
+.cajas p{
+	margin: 0.5em 0.5em 0 1em;
+}
+.cajas a{
+	float: right;
+	margin-right: 1em;
+}
+/*---------FIN SOUVENIRS----------*/
+
+/*---------INICIO CARPAS----------*/
+.carpas{
+	margin: 0 4em;
+	height: 1200px;
+}
+.carpas img{
+	margin: 2em 0 2em 4em;
+	border-radius: 4em;
+	border: 1px solid purple;
+}
+.carpas h1{
+	text-align: center;
+}
+.carpgal{
+	margin: 10px;
+  	border: 1px solid #ccc;
+  	border-radius: 4em;
+  	float: left;
+  	width: 30%;
+}
+.carpgal:hover{
+	border: 1px solid #777;
+}
+.carpgal img{
+	width: 100%;
+  	height: 300px;
+  	margin: 0;
+}
+
+.carpdesc{
+	padding: 15px;
+  	text-align: center;
+}
+
+/*---------FIN CARPAS----------*/
+
+
+/*---------INICIO CONTACTO----------*/
+
+.contacto{
+	width: 100%;
+	height: 500px;
+}
+
+.formulario{
+	width: 42%;
+	box-sizing: border-box;
+	margin-left: 100px;
+	border-right: 1px solid #ddd;
+	float: left;
+}
+
+.escribinos label{
+	vertical-align: top;
+	width: 10%;
+	display: block;
+}
+
+.escribinos input,
+.escribinos textarea{
+	font-family: sans-serif;
+	background-color: #ddd;
+	border-radius: 5px;
+	border: 1px solid #999;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 90%;
+}
+.escribinos textarea{
+	height: 10em;
+	resize: none;
+}
+.formulario .escribinos{
+	text-align: center;
+} 
+.escribinos input[type="submit"]{
+	background-color: #ff33f9;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	color: pink;
+	font-size: 1em;
+	position: center;
+	width: auto;
+}
+.ubicacion{
+	width: 42%;
+	margin-left: 100px;
+	float: left;
+}
+
+.ubicacion p{
+	font-size: 0.8em;
+}
+.ubicacion ul li{
+	font-size: 0.8em;
+	list-style-type: none;
+}
+
+/*---------FIN CONTACTO----------*/
